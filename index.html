@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Form Demo</title>
+</head>
+
+<body>
+
+    <h1>Form Demo</h1>
+
+    <form>
+        <fieldset>
+            <legend>Text input</legend>
+            <br>
+            <label for="textbox">Text box</label>
+            <input type="text" id="textbox" name="textbox" value="text here"><br><br>
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" value="password"><br><br>
+            <label for="message">Text Area</label>
+            <textarea name="message" rows="5" cols="150" placeholder="Your text here"></textarea><br>
+            <br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Selecting elements</legend>
+            <br>
+            <label for="select">Select List</label>
+            <select id="select" name="select">
+                <option value="One">One</option> 
+                <option value="Two">Two</option>
+                <option value="Three">Three</option>   
+            </select>
+            <br><br>
+            <label for="checkbox">Check boxes</label>
+            <input type="checkbox" id="checkbox1" name="checkbox1" value="Green Eggs">
+            <label for="checkbox">Green Eggs</label>
+            <input type="checkbox" id="checkbox2" name="checkbox2" value="Ham">
+            <label for="checkbox">Ham</label>
+            <br><br>
+
+            <label>Radio buttons</label>
+            <input type="radio" id="small" name="small" value="small" checked="checked">
+            <label for="small">small</label>
+            <input type="radio" id="medium" name="medium" value="medium">
+            <label for="medium">medium</label>
+            <input type="radio" id="large" name="large" value="large">
+            <label for="large">large</label><br><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Buttons</legend>
+            <br>
+            <button type="submit" value="Submit">standard button</button>
+            <input type="submit" value="input button">
+            <input type="reset" value="Reset">
+            <button type="submit" value="Submit">Submit</button><br><br>
+        </fieldset>
+
+    </form>
+</body>
+
+</html>
